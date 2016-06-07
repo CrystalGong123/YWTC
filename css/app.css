@@ -1,0 +1,55 @@
+/*头部*/
+.mui-slider img{height: 150px;}
+.mui-bar-nav{background: rgba(0,0,0,.8);font-family: 'microsoft yahei';}
+.mui-icon-left-nav{color:rgba(255,255,255,.8);}
+.mui-title{color:rgba(255,255,255,.8);}
+.mui-bar-nav .icon-parkDetails-home{line-height: 44px;color:rgba(255,255,255,.8);}
+/*轮播图标题*/
+.mui-slider-title{background: rgba(0,0,0,.5);}
+/*上下滑动区域*/
+.mui-scroll-wrapper{top:194px;bottom: 50px;}
+/*车场距离*/
+.parkName{color: forestgreen;border-bottom: 1px solid #ccc;}
+.parkName ul{display: -webkit-flex;margin-top:5px;}
+.parkName ul li{-webkit-flex:1;text-align: center;}
+/*车场综合评价*/
+.park_intro{text-align: center;line-height: 25px;margin:0 8px;border-bottom: 1px solid #ccc;}
+.park_intro span{padding:0 8px;}
+/*车场导航*/
+.park_guide{display:-webkit-flex;}
+.park_guide div{-webkit-flex:1;line-height: 25px;text-align: center;}
+.park_guide div:last-child a{display:inline-block;color:rgba(0,0,0,.8);width: 45px;height: 20px;line-height:20px;background: #ccc;-webkit-border-radius:5px;text-align: center;}
+/*停车服务*/
+.parkService{border-bottom: 1px solid #ccc;}
+.parkService .title{line-height: 30px;border-bottom: 1px solid #ccc;padding-left: 5px;}
+.info .links{display: -webkit-flex;height: 50px;}
+.info .links li{-webkit-flex: 1;}
+.info .links li a{display:block;width:100%;height:100%;display: -webkit-flex;-webkit-flex-direction: column;-webkit-justify-content:center;text-align: center;}
+.info .bookAdver{display:-webkit-flex;line-height: 40px;}
+.info .bookAdver li:nth-child(2){width: 50px;}
+.info .bookAdver li:first-child{-webkit-flex: 1;text-align: right;}
+.info .bookAdver li:last-child{-webkit-flex: 1;}
+.info .bookAdver a{display: inline-block;color:rgba(0,0,0,.8);width: 80px;line-height: 25px;background:#ccc;-webkit-border-radius:5px;text-align: center;}
+/*资费标准*/
+.chargeStandard{border-bottom: 1px solid #ccc;}
+.chargeStandard .title{line-height: 30px;border-bottom: 1px solid #ccc;padding-left: 5px;}
+.briefIntro{display:-webkit-flex;line-height:25px;background:#ccc;-webkit-border-radius: 5px;margin: 5px 10px 0 10px;}
+.briefIntro div{-webkit-flex: 1;}
+.schedule{border-spacing: 0;border-collapse: collapse;margin:5px auto;}
+.schedule td,th{width: 100px;height: 25px;border: 1px solid #ccc;text-align: center;}
+.schedule th{background:forestgreen;color:rgba(255,255,255,.8);}
+.monthlyRent{margin:5px 10px;line-height: 25px;background:#ccc;-webkit-border-radius: 5px;}
+/*停车优惠*/
+.parkDiscount{border-bottom: 1px solid #ccc;}
+.parkDiscount .title{line-height: 30px;border-bottom: 1px solid #ccc;padding-left: 5px;}
+.parkDiscount .title span{color: red;font-weight: normal;}
+.parkDiscount .desc{list-style-type:disc;margin:5px 0;}
+.parkDiscount .desc li{padding-left: 5px;line-height: 20px;}
+/*精彩点评*/
+.wonderComments{}
+.wonderComments .titWrap{display:-webkit-flex;height: 30px;border-bottom: 1px solid #ccc;padding:0 10px 0 5px;}
+.wonderComments .titWrap h3{line-height: 30px;-webkit-flex: 1;}
+.wonderComments .titWrap h3:last-child{text-align: right;}
+.wonderComments .titWrap h3 a{text-decoration:underline;color: rgba(0,0,0,.8);font-weight: normal;}
+
+.mui-bar-tab .mui-active{color:rgba(0,0,0,.8)!important;}
